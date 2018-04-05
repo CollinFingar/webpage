@@ -1,6 +1,4 @@
-# vu-dev
-
-> Vue Bootstrap with Material Design
+# collinfingar.com
 
 ## Build Setup
 

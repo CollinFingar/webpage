@@ -1,8 +1,8 @@
 {
-  "name": "vu-dev",
+  "name": "collin-fingar-website",
   "version": "1.0.0",
-  "description": "Vue Bootstrap with Material Design",
-  "author": "Bartek Malanowski <b.malanowski@mdbootstrap.com>",
+  "description": "Website source code for collinfingar.com",
+  "author": "Collin Fingar",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
