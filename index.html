@@ -29,19 +29,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#AboutMe">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#Skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#Portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#Contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -58,8 +58,8 @@
               <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Collin Fingar</strong></h1>
               <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
               <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Software Engineer</strong></h5>
-              <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">About Me</a>
-              <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Portfolio</a>
+              <!-- <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">About Me</a>
+              <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Portfolio</a> -->
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@
   <!-- NAVIGATION -->
 
   <main>
-    <div class="container">
+    <div id="AboutMe" class="container">
       <!--Card-->
       <div class="card card-cascade wider reverse my-4 wow fadeInUp">
 
@@ -108,7 +108,7 @@
       <!--/.Card-->
     </div>
 
-    <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="height:250px; background-image: url('./img/cover-image-forest.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <div id="Skills" class="view jarallax" data-jarallax='{"speed": 0.2}' style="height:250px; background-image: url('./img/cover-image-forest.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
     </div>
 
     <div class="container-fluid blue-grey lighten-4" ><div class="container">
@@ -124,7 +124,7 @@
     </div></div>
 
 
-    <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="height:250px; background-image: url('./img/cover-image-forest.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <div id="Portfolio" class="view jarallax" data-jarallax='{"speed": 0.2}' style="height:250px; background-image: url('./img/cover-image-forest.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
     </div>
 
 
@@ -197,7 +197,7 @@
 
 
 <!--Footer-->
-<footer class="page-footer font-small special-color-dark">
+<footer id="Contact" class="page-footer font-small special-color-dark">
 
     <!--Footer Links-->
     <div class="container-fluid text-center text-md-left py-3">
@@ -248,11 +248,7 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <script type="text/javascript" src="js/myCharts.js"></script>
-    <script>
-      
-
-        new WOW().init();
-    </script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
