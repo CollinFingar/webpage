@@ -29,3 +29,4 @@ $(".navbar a").on('click', function(event) {
 $('[data-spy="scroll"]').each(function () {
     var $spy = $(this).scrollspy('refresh')
 })
+
